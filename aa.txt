@@ -3,10 +3,12 @@ fatal: No configured push destination.
 git config user.email "zhangsan@qq.com"
 git config user.name "zhangsan"
 
+我们是通过 git clone命令来将该仓库下载到本地的，这个时候的remote其实是原项目地址，我们当然是不能直接git push的，因为我们并没有这样的权限
 建立远程连接
 git remote add origin https://github.com/jjc123/one.git
 取消本地目录下关联的远程库：
 git remote remove origin
+参考：https://www.jianshu.com/p/b011f6769bdf
 
 参考：
 https://blog.csdn.net/benben_2015/article/details/78803753
