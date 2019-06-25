@@ -1,3 +1,19 @@
-sss
-����bb
-����aa
+fatal: No configured push destination.
+-- 设置本项目的配置信息
+git config user.email "zhangsan@qq.com"
+git config user.name "zhangsan"
+
+
+
+
+参考：
+https://blog.csdn.net/benben_2015/article/details/78803753
+
+git clone https://github.com/jjc123/one.git
+git remote add origin https://github.com/jjc123/one.git
+git remote -v
+git branch -a
+
+git push --set-upstream origin master
+出现错误的主要原因是github中的README.md文件不在本地代码目录中
+git pull --rebase origin master
