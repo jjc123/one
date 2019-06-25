@@ -3,8 +3,10 @@ fatal: No configured push destination.
 git config user.email "zhangsan@qq.com"
 git config user.name "zhangsan"
 
-
-
+建立远程连接
+git remote add origin https://github.com/jjc123/one.git
+取消本地目录下关联的远程库：
+git remote remove origin
 
 参考：
 https://blog.csdn.net/benben_2015/article/details/78803753
