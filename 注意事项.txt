@@ -21,3 +21,8 @@ git branch -a
 git push --set-upstream origin master
 出现错误的主要原因是github中的README.md文件不在本地代码目录中
 git pull --rebase origin master
+
+参考：
+https://www.bootcss.com/p/git-guide/
+https://blog.csdn.net/huangfan322/article/details/53220060
+https://blog.csdn.net/autfish/article/details/52513465
